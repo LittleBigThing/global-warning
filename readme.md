@@ -1,4 +1,4 @@
-# Global War*n*ing: a site for the contest 10k Apart
+# Global War**n**ing: a site for the contest 10k Apart
 
 This [2016 10k Apart contest entry](https://a-k-apart.com/) is a site that explains global warming and its effects and encourages the user to act to fight it.
 
