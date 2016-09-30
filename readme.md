@@ -5,6 +5,7 @@ This [2016 10k Apart contest entry](https://a-k-apart.com/) is a site that expla
 ## 3 pages
 
 There are three simple pages:
+
 1. The homepages summarizes the facts that are happening to our Earth already due to global warming.
 2. The page Causes explains why global warming is happening and what we, humans, do to make it worse.
 3. On the third page you can join as a symbolic action to figh global warming. If you join you should follow the advice given on this page to reduce your exological footprint.
