@@ -23,7 +23,8 @@ The site works with PHP on the server, mostly for a more DRY development. Also, 
 ## Thanks
 
 - Jonathan Verrecchia for initializing [Initializr](http://www.initializr.com)
-- Nicolas Gallagher and Jonathan Neal for [normalize.css](https://necolas.github.io/normalize.css/) that was slightly modified 
+- Nicolas Gallagher and Jonathan Neal for [normalize.css](https://necolas.github.io/normalize.css/) that was slightly modified
+- Automattic for [Genericons](https://genericons.com)
 
 ***
 

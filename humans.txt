@@ -9,6 +9,7 @@
 
 	Jonathan Verrecchia for initializing Initializr, http://www.initializr.com
 	Nicolas Gallagher and Jonathan Neal for normalize.css that was slightly modified, https://necolas.github.io/normalize.css/
+	Automattic for Genericons, https://genericons.com
 
 # TECHNOLOGY COLOPHON
 
