@@ -1,0 +1,46 @@
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	
+	span {
+		font-size: 75%;
+		font-style: italic;
+	}
+}
+
+button {
+	background: $yellow;
+	border: 0;
+	border-radius: 4px;
+	color: $dark_blue;
+	font-weight: bold;
+	line-height: 1;
+	padding: 1em;
+	text-transform: uppercase;
+	transition: 0.1s linear;
+	
+	&:hover {
+		background: $dark_blue;
+		color: $yellow;
+	}
+}
+
+input {
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid $yellow;
+	color: $yellow;
+	display: block;
+	margin: 1em auto 0.5em;
+	max-width: 100%;
+	padding: 0.375em 0 0.25em;
+	text-align: center;
+}
+
+#name {
+	display: none;
+}

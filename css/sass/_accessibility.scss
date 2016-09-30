@@ -1,0 +1,22 @@
+/* Helper classes */
+.sr {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.sr.foc:active,
+.sr.foc:focus {
+	clip: auto;
+	color: $dark_blue;
+	height: auto;
+	overflow: visible;
+	position: relative;
+	width: auto;
+	z-index: 999;
+}

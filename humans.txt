@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Csaba Varszegi from LittleBigThings -- Designer & Developer -- http://twitter.com/CsabaVarszegi
+
+# THANKS
+
+	Jonathan Verrecchia for initializing Initializr, http://www.initializr.com
+	Nicolas Gallagher and Jonathan Neal for normalize.css that was slightly modified, https://necolas.github.io/normalize.css/
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, JavaScript, PHP

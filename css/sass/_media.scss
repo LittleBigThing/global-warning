@@ -1,0 +1,48 @@
+
+img {
+  	vertical-align: middle;
+}
+
+html:before {
+	animation: earth 60s linear infinite;
+	bottom: 0;
+	content: url(../img/earth.svg);
+	left: calc(50% - 160px);
+	position: absolute;
+	right: 0;
+	top: calc(50% - 160px);
+	z-index: -1;
+}
+
+.s-title:before {
+	animation: sun 6s ease-out forwards;
+}
+
+#title.warn span {
+	animation: warn 6s ease-in;
+}
+
+#title.warm span {
+	animation: warm 6s ease-in;
+}
+
+@include media-query() {
+	
+	#list {
+		
+		&.alarm {
+			animation: alarm .2s linear 3s 16;
+			background-image: url(../img/alarm.svg);
+		}
+		
+		&.human {
+			animation: human 1s ease-out 3s 1 both;
+			background: url(../img/human.svg) no-repeat center, url(../img/human.svg) no-repeat center, url(../img/human.svg) no-repeat center;
+		}
+		
+		&.mega {
+			animation: mega .3s linear 3s 6;
+			background-image: url(../img/mega.svg);
+		}
+	}
+}

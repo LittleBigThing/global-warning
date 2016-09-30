@@ -1,0 +1,35 @@
+/* Import sass styles to generate the combined sass file */
+
+// site variables
+@import "variables";
+@import "mixins";
+
+// normalize
+@import "normalize";
+
+// elements
+@import "elements";
+
+// forms
+@import "forms";
+
+// media
+@import "media";
+
+// navigation
+@import "navigation";
+
+// accessibility
+@import "accessibility";
+
+// clearings
+@import "clearings";
+
+// site
+@import "site";
+
+// animation
+@import "animation";
+
+// print
+@import "print";

@@ -1,0 +1,89 @@
+/* Animation keyframes */
+@keyframes earth {
+	
+	0% {
+		transform: translate(-100%,-20%) scale(.6);
+	}
+	50% {
+		transform: translate(0,0) scale(1);
+	}
+	100% {
+		transform: translate(100%,-20%) scale(.6);
+	}
+}
+
+@keyframes sun {
+	
+	from {
+		box-shadow: none;
+	}
+	to {
+		box-shadow: 2px 2px 64px 12px $orange;
+	}
+}
+
+@keyframes alarm {
+	
+	33% {
+		background-position: 51% 51%;
+	}
+	66% {
+		background-position: 49% 49%;
+	}
+}
+
+@keyframes human {
+	
+	50% {
+		background: url(../img/human.svg) no-repeat center, url(../img/human.svg) no-repeat center, url(../img/human.svg) no-repeat 65% 39%;
+	}
+	100% {
+		background: url(../img/human.svg) no-repeat center, url(../img/human.svg) no-repeat 35% 39%, url(../img/human.svg) no-repeat 65% 39%;
+	}
+}
+
+@keyframes mega {
+	
+	from {
+		background-size: 160px 160px;
+	}
+	to {
+		background-size: 180px 180px;
+	}
+}
+
+@keyframes warm {
+	
+	0% {
+		transform: scale(0);
+	}
+	5% {
+		transform: scale(1);
+	}
+	95% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(0);
+	}
+}
+
+@keyframes warn {
+	
+	0% {
+		transform: scale(0);
+	}
+	5% {
+		transform: scale(1);
+	}
+	95% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(0);
+	}
+}

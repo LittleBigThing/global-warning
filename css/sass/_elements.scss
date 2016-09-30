@@ -1,0 +1,10 @@
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	background: $dark_blue;
+	color: $whitish;
+	line-height: $line_height_body;
+	font-weight: 300;
+}

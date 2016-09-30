@@ -1,0 +1,42 @@
+/* Links */
+a {
+	color: $yellow;
+	border-bottom: 2px solid;
+	text-decoration: none;
+	transition: .1s linear;
+	
+	main &:hover {
+		border-width: 0;
+	}
+}
+
+/* Site navigation */
+#nav {
+	
+	ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	li {
+		display: inline-block;
+		list-style: none;
+		
+		&.act a {
+			border-color: $yellow;
+		}
+	}
+	
+	a {
+		border-bottom-color: $blue;
+		display: block;
+		font-weight: bold;
+		letter-spacing: .06em;
+		padding: .5em 1em;
+		
+		&:hover {
+			border-color: $yellow;
+		}
+	}
+}
