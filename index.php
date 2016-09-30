@@ -20,11 +20,11 @@ require 'inc/header.php'; ?>
 			<section id="list" class="mega cf">
 				<div>
 					<h2>Climate Change</h2>
-					<p>Global warming results in more extreme weather conditions. More natural disasters, like floods, earthquakes, ... are taking place. Temperatures are getting more extreme. Rain and snowfall are increasing across the globe, on average.</p>
+					<p>Global warming results in more extreme weather conditions. More natural disasters, like floods and earthquakes, are taking place. Temperatures are getting more extreme. Rain and snowfall are increasing across the globe, on average.</p>
 				</div>
 				<div>
 					<h2>Loss of Biodiversity</h2>
-					<p>Increases in atmospheric CO<sub>2</sub>, temperature and precipitation, like rain, have significant effects on plant growth. They can be harmful beyond the physiological limits of the plant. They affect plant distribution and their life cycle directly. Indirect effects are caused by interaction with other species.</p>
+					<p>Increases in atmospheric CO<sub>2</sub>, temperature and precipitation, like rain, have significant effects on the growth of organisms. These can be harmful beyond their physiological limits. They affect their distribution and their life cycle directly. Indirect effects are caused by interaction with other species.</p>
 				</div>
 				<div>
 					<h2>Sea Level Rise</h2>
@@ -32,7 +32,7 @@ require 'inc/header.php'; ?>
 				</div>
 				<div>
 					<h2>Diseases</h2>
-					<p>Temperature rise can affect human health and diseases they are exposed to. With increasing rainfall, water borne diseases, like malaria, are likely to spread. Heat waves can also cause damage to young and old people.</p>
+					<p>Temperature rise can affect human health and diseases they are exposed to. With increasing rainfall, temperature, water-borne diseases, like malaria, are likely to spread. Heat waves can also cause damage to young and old people.</p>
 				</div>
 			</section>
 			
