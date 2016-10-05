@@ -6,14 +6,14 @@ require 'inc/header.php'; ?>
 			<nav id="nav">
 				<ul class="cf">
 					<li class="act"><a href="/" rel="home">Facts</a></li>
-					<li><a href="causes">Causes</a></li>
-					<li><a href="act">Act!</a></li>
+					<li><a href="causes.php">Causes</a></li>
+					<li><a href="act.php">Act!</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<main id="cont" class="cf">
-			<h1 class="p-title"><a href="act">A Global Warning to Fight Global Warming</a></h1>
+			<h1 class="p-title"><a href="act.php">A Global Warning to Fight Global Warming</a></h1>
 			
 			<p>Global warming is the increase of Earth's average surface temperature due to greenhouse gases that collect in the atmosphere. Greenhouse gases such as carbon dioxide (CO<sub>2</sub>) and methane (CH<sub>4</sub>) absorb heat that would otherwise escape from the Earth. No science-fiction, scientifically proved facts.</p>
 
@@ -36,7 +36,7 @@ require 'inc/header.php'; ?>
 				</div>
 			</section>
 			
-			<p>Sounds bad? And <a href="https://en.wikipedia.org/wiki/Global_warming">this is not all</a>. But we can <a href="act">do something</a> about it!</p>
+			<p>Sounds bad? And <a href="https://en.wikipedia.org/wiki/Global_warming">this is not all</a>. But we can <a href="act.php">do something</a> about it!</p>
 		</main>
 
 <?php require 'inc/footer.php'; ?>

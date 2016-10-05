@@ -6,8 +6,8 @@ require 'inc/header.php'; ?>
 			<nav id="nav">
 				<ul class="cf">
 					<li><a href="/" rel="home">Facts</a></li>
-					<li class="act"><a href="causes">Causes</a></li>
-					<li><a href="act">Act!</a></li>
+					<li class="act"><a href="causes.php">Causes</a></li>
+					<li><a href="act.php">Act!</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -36,7 +36,7 @@ require 'inc/header.php'; ?>
 				</div>
 			</section>
 			
-			<p>So all these facts contribute to global warming. <a href="act">Let&rsquo;s do something about it!</a></p>
+			<p>So all these facts contribute to global warming. <a href="act.php">Let&rsquo;s do something about it!</a></p>
 		</main>
 
 <?php require 'inc/footer.php'; ?>

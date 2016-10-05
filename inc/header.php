@@ -1,6 +1,6 @@
 <?php defined('APP') or die('Cheatin\'?'); ?>
 
-<?php $title = $_SERVER['REQUEST_URI'] ? ucwords( str_replace( '-', ' ', strip_tags( basename( $_SERVER['REQUEST_URI'] ) ) ) ) : ''; ?>
+<?php $title = $_SERVER['REQUEST_URI'] ? ucwords( str_replace( '.php', ' ', strip_tags( basename( $_SERVER['REQUEST_URI'] ) ) ) ) : ''; ?>
 
 <!doctype html>
 <html class="no-js" lang="en">

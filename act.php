@@ -21,8 +21,8 @@ require 'inc/header.php'; ?>
 			<nav id="nav">
 				<ul class="cf">
 					<li><a href="/" rel="home">Facts</a></li>
-					<li><a href="causes">Causes</a></li>
-					<li class="act"><a href="act">Act!</a></li>
+					<li><a href="causes.php">Causes</a></li>
+					<li class="act"><a href="act.php">Act!</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -79,7 +79,7 @@ require 'inc/header.php'; ?>
 			</section>
 			
 			<?php if ( ! $just_joined ) : ?>
-			<form action="act#count" method="post" class="bg" novalidate>
+			<form action="act.php#count" method="post" class="bg" novalidate>
 				<p>
 					<label for="join">By filling in my email address I swear to follow these and other best practices to fight global warming, so we can change the world</label>
 					<input type="email" id="join" name="email" size="30" placeholder="your@email.com">
